@@ -1,0 +1,14 @@
+.header-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+
+    @include mobile {
+        max-width: 320px;
+    }
+
+    @include desktop {
+        max-width: 1200px;
+    }
+}
